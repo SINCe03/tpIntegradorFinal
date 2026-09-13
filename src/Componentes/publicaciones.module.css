@@ -1,0 +1,107 @@
+.contenedor {
+max-width: 640px;
+margin: 40px auto;
+padding: 0 16px;
+}
+
+.titulo {
+margin-bottom: 24px;
+}
+
+.formulario {
+display: flex;
+flex-direction: column;
+gap: 12px;
+margin-bottom: 32px;
+}
+
+.formulario input,
+.formulario textarea {
+padding: 10px 14px;
+border-radius: 10px;
+border: 1px solid #3f3f46;
+background: rgba(255, 255, 255, 0.05);
+color: inherit;
+font-size: 1rem;
+font-family: inherit;
+}
+
+.formulario textarea {
+min-height: 80px;
+resize: vertical;
+}
+
+.acciones {
+display: flex;
+gap: 10px;
+}
+
+.boton {
+padding: 10px 20px;
+border: none;
+border-radius: 999px;
+font-weight: 600;
+font-size: 0.9rem;
+cursor: pointer;
+transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.boton:hover {
+transform: translateY(-1px);
+}
+
+.boton:active {
+transform: translateY(0);
+}
+
+.botonPrimario {
+background: linear-gradient(135deg, #6366f1, #8b5cf6);
+color: white;
+box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+}
+
+.botonPrimario:hover {
+box-shadow: 0 6px 18px rgba(99, 102, 241, 0.45);
+}
+
+.botonSecundario {
+background: transparent;
+color: #a1a1aa;
+border: 1px solid #3f3f46;
+}
+
+.botonSecundario:hover {
+background: rgba(255, 255, 255, 0.08);
+color: #e4e4e7;
+}
+
+.botonPeligro {
+background: transparent;
+color: #f87171;
+border: 1px solid rgba(248, 113, 113, 0.4);
+}
+
+.botonPeligro:hover {
+background: rgba(248, 113, 113, 0.12);
+}
+
+.publicacion {
+border: 1px solid #27272a;
+border-radius: 14px;
+padding: 16px 20px;
+margin-bottom: 14px;
+background: rgba(255, 255, 255, 0.03);
+}
+
+.fecha {
+display: block;
+color: #71717a;
+font-size: 0.8rem;
+margin: 6px 0 12px;
+}
+
+.accionesFila {
+display: flex;
+gap: 8px;
+}
+
