@@ -1,4 +1,3 @@
-// src/componentes/Publicaciones.jsx
 import { useState, useEffect } from "react";
 import {
     obtenerPublicaciones,
